@@ -11,6 +11,7 @@ console.log('API Key loaded:', process.env.ANTHROPIC_API_KEY ? 'YES' : 'NO')
 const app = express()
 app.use(cors())
 app.use(express.json())
+app.use(express.static('.'))
 
 const client = new Anthropic({ 
   apiKey: process.env.ANTHROPIC_API_KEY 
