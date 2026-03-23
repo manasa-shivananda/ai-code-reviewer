@@ -72,7 +72,7 @@ Open http://localhost:3000 in your browser.
 
 ## 📸 Demo
 
-Screenshot coming soon
+![AI Code Reviewer](screenshot.png)
 
 ---
 
